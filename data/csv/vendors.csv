@@ -1,0 +1,17 @@
+id,vendorName,vendorPartyNumber,vendorAddress,vendorTaxId,vendorEmail,vendorPhone,createdAt,updatedAt
+vendor-1,Musterfirma Müller,1234567890,"Ringstraße 12, 12345 Testdorf, DE",DE819830389,,,2025-11-08T18:44:15.309Z,2025-11-08T18:44:15.309Z
+vendor-2,Musterfirma Müller,,"Ringstraße 12, 12345 Testdorf, DE",DE8198303,,,2025-11-08T18:44:15.309Z,2025-11-08T18:44:15.309Z
+vendor-3,belegFuchs,,"Musterstraße 5, 53757 Sankt Augustin",DE123456789,,,2025-11-08T18:44:15.309Z,2025-11-08T18:44:15.309Z
+vendor-4,Auto Teile Europa GmbH,,"Schillingbrücke 58 | 10243 Berlin, Germany",DE123456789,,,2025-11-08T18:44:15.310Z,2025-11-08T18:44:15.310Z
+vendor-5,pixa,,Musterstraße 1 12345 Berlin,DE123456789,,,2025-11-08T18:44:15.310Z,2025-11-08T18:44:15.310Z
+vendor-6,Taxon GmbH,,"Viniettestr. 23, 00981 Berlin, Deutschland",DE9832343,,,2025-11-08T18:44:15.310Z,2025-11-08T18:44:15.310Z
+vendor-7,EasyFirma GmbH & Co KG,,"Schöpfergasse 6
+1120 WIEN
+ÖSTERREICH",ATU12345678,,,2025-11-08T18:44:15.310Z,2025-11-08T18:44:15.310Z
+vendor-8,Muster GmbH,,"Lange Str. 2
+10245 Berlin",,,,2025-11-08T18:44:15.310Z,2025-11-08T18:44:15.310Z
+vendor-9,Firmenname,,"Musterstraße 51, 12345 Stadt",12345613,,,2025-11-08T18:44:15.313Z,2025-11-08T18:44:15.313Z
+vendor-10,ABC Seller,,"An Der Urania 13, Dortmund
+Germany",012345678,,,2025-11-08T18:44:15.315Z,2025-11-08T18:44:15.315Z
+vendor-11,LAXMIDAIRY,,"2516, Ground Floor, Hundson Lane, Kingsway Cam, Delhi-11009",07AAGCA1703KIZX,,,2025-11-08T18:44:15.315Z,2025-11-08T18:44:15.315Z
+vendor-12,CPB SOFTWARE (GERMANY) GMBH,,"Im Bruch 3, 63897 Miltenberg",DE199378386,,,2025-11-08T18:44:15.315Z,2025-11-08T18:44:15.315Z

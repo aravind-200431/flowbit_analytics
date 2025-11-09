@@ -1,0 +1,52 @@
+id,invoiceId,dueDate,paymentTerms,paymentMethod,paidDate,paidAmount,status,netDays,discountPercentage,discountDays,discountDueDate,discountedTotal,bankAccountNumber,bic,accountName,createdAt,updatedAt
+payment-1,invoice-1,,,,,,pending,0,,0,,,DE05 1882 0000 0000 1928,,,2025-11-08T18:44:15.309Z,2025-11-08T18:44:15.309Z
+payment-2,invoice-2,,,,,,pending,,,,,,DE05 1882 0000 0000 1928,,,2025-11-08T18:44:15.309Z,2025-11-08T18:44:15.309Z
+payment-3,invoice-3,,,,,,pending,,,,,,,,,2025-11-08T18:44:15.309Z,2025-11-08T18:44:15.309Z
+payment-4,invoice-4,,,,,,pending,,,,,,DE1234123412341234,,,2025-11-08T18:44:15.309Z,2025-11-08T18:44:15.309Z
+payment-5,invoice-5,2024-01-15T00:00:00.000Z,"Bitte überweisen Sie den Betrag innerhalb von zwei
+Wochen auf das angegebene Bankkonto.",,,,pending,,,,,,DE91 1234 5678,,,2025-11-08T18:44:15.310Z,2025-11-08T18:44:15.310Z
+payment-6,invoice-6,2020-01-14T00:00:00.000Z,,,,,pending,,,,,,DE07123412341234123412,,,2025-11-08T18:44:15.310Z,2025-11-08T18:44:15.310Z
+payment-7,invoice-7,2023-12-22T00:00:00.000Z,7 Tage,,,,pending,,,,,,,,,2025-11-08T18:44:15.310Z,2025-11-08T18:44:15.310Z
+payment-8,invoice-8,2025-08-22T00:00:00.000Z,,,,,pending,,,,,,DE491700000122001632,,,2025-11-08T18:44:15.310Z,2025-11-08T18:44:15.310Z
+payment-9,invoice-9,,"10 Tage 5% Skonto, 30 Tage ohne Abzug",,,,pending,,,,,,,,,2025-11-08T18:44:15.310Z,2025-11-08T18:44:15.310Z
+payment-10,invoice-10,2015-08-14T00:00:00.000Z,,,,,pending,,,,,,12345672,,,2025-11-08T18:44:15.314Z,2025-11-08T18:44:15.314Z
+payment-11,invoice-11,2025-08-22T00:00:00.000Z,,,,,pending,,,,,,DE491700000122001632,,,2025-11-08T18:44:15.315Z,2025-11-08T18:44:15.315Z
+payment-12,invoice-12,2020-05-27T00:00:00.000Z,,,,,pending,,,,,,,,,2025-11-08T18:44:15.315Z,2025-11-08T18:44:15.315Z
+payment-13,invoice-13,,,,,,pending,,,,,,,,,2025-11-08T18:44:15.315Z,2025-11-08T18:44:15.315Z
+payment-14,invoice-14,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.315Z,2025-11-08T18:44:15.315Z
+payment-15,invoice-15,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.316Z,2025-11-08T18:44:15.316Z
+payment-16,invoice-16,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.316Z,2025-11-08T18:44:15.316Z
+payment-17,invoice-17,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.316Z,2025-11-08T18:44:15.316Z
+payment-18,invoice-18,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.316Z,2025-11-08T18:44:15.316Z
+payment-19,invoice-19,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.316Z,2025-11-08T18:44:15.316Z
+payment-20,invoice-20,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.316Z,2025-11-08T18:44:15.316Z
+payment-21,invoice-21,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.316Z,2025-11-08T18:44:15.316Z
+payment-22,invoice-22,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.317Z,2025-11-08T18:44:15.317Z
+payment-23,invoice-23,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.317Z,2025-11-08T18:44:15.317Z
+payment-24,invoice-24,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.317Z,2025-11-08T18:44:15.317Z
+payment-25,invoice-25,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.317Z,2025-11-08T18:44:15.317Z
+payment-26,invoice-26,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.317Z,2025-11-08T18:44:15.317Z
+payment-27,invoice-27,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.317Z,2025-11-08T18:44:15.317Z
+payment-28,invoice-28,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.317Z,2025-11-08T18:44:15.317Z
+payment-29,invoice-29,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.318Z,2025-11-08T18:44:15.318Z
+payment-30,invoice-30,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.318Z,2025-11-08T18:44:15.318Z
+payment-31,invoice-31,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.318Z,2025-11-08T18:44:15.318Z
+payment-32,invoice-32,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.318Z,2025-11-08T18:44:15.318Z
+payment-33,invoice-33,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.319Z,2025-11-08T18:44:15.319Z
+payment-34,invoice-34,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.319Z,2025-11-08T18:44:15.319Z
+payment-35,invoice-35,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.319Z,2025-11-08T18:44:15.319Z
+payment-36,invoice-36,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.319Z,2025-11-08T18:44:15.319Z
+payment-37,invoice-37,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.319Z,2025-11-08T18:44:15.320Z
+payment-38,invoice-38,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.320Z,2025-11-08T18:44:15.320Z
+payment-39,invoice-39,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.320Z,2025-11-08T18:44:15.320Z
+payment-40,invoice-40,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.320Z,2025-11-08T18:44:15.320Z
+payment-41,invoice-41,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.320Z,2025-11-08T18:44:15.320Z
+payment-42,invoice-42,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.320Z,2025-11-08T18:44:15.320Z
+payment-43,invoice-43,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.320Z,2025-11-08T18:44:15.320Z
+payment-44,invoice-44,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.320Z,2025-11-08T18:44:15.320Z
+payment-45,invoice-45,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.320Z,2025-11-08T18:44:15.320Z
+payment-46,invoice-46,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.321Z,2025-11-08T18:44:15.321Z
+payment-47,invoice-47,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.321Z,2025-11-08T18:44:15.321Z
+payment-48,invoice-48,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.321Z,2025-11-08T18:44:15.321Z
+payment-49,invoice-49,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.321Z,2025-11-08T18:44:15.321Z
+payment-50,invoice-50,,Immediate payment without discount. Any bank charges must be paid by the invoice recipient.,,,,pending,,,,,,DE29 1234 5678 9012 3456 78,,,2025-11-08T18:44:15.321Z,2025-11-08T18:44:15.321Z

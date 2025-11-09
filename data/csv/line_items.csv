@@ -1,0 +1,666 @@
+id,invoiceId,srNo,description,quantity,unitPrice,totalPrice,category,taxRate,sachkonto,buSchluessel,createdAt
+lineitem-1,invoice-1,1,Beispieldienstleistung,2.5,-69,-172.5,,,4400,9,2025-11-08T18:44:15.309Z
+lineitem-2,invoice-1,2,Beispielprodukt,1,-129,-129,,,4400,9,2025-11-08T18:44:15.309Z
+lineitem-3,invoice-2,1,Beispieldienstleistung,2.5,-69,-172.5,,,4400,9,2025-11-08T18:44:15.309Z
+lineitem-4,invoice-2,2,Beispielprodukt,1,-129,-129,,,3400,9,2025-11-08T18:44:15.309Z
+lineitem-5,invoice-4,1,belegFuchs Premium,1,19.99,19.99,,,4925,,2025-11-08T18:44:15.310Z
+lineitem-6,invoice-5,1,Ersatzteile Heizung,1,320,320,,,4910,9,2025-11-08T18:44:15.310Z
+lineitem-7,invoice-5,2,Arbeitsstunden,2,100,200,,,4400,9,2025-11-08T18:44:15.310Z
+lineitem-8,invoice-6,1,Beratung Website Neugestaltung Analyse der bestehenden Website und Aufstellung der notwendigen Änderungen.,4,80,320,,,4400,9,2025-11-08T18:44:15.310Z
+lineitem-9,invoice-6,2,Entwicklung Website example.com,30,80,2400,,,4400,9,2025-11-08T18:44:15.310Z
+lineitem-10,invoice-6,3,Dokumentation,3,80,240,,,4400,9,2025-11-08T18:44:15.310Z
+lineitem-11,invoice-6,4,Projektübergabe,1,110,110,,,4400,9,2025-11-08T18:44:15.310Z
+lineitem-12,invoice-7,1,Marketing-Service,1,541.45,541.45,,,4400,9,2025-11-08T18:44:15.310Z
+lineitem-13,invoice-8,1,"Farbe weis - Eimer 2,5 Liter",10,72.49,724.9,,,3400,9,2025-11-08T18:44:15.310Z
+lineitem-14,invoice-8,2,"Farbe blau - Eimer 2,5 Liter",10,50,500,,,3400,9,2025-11-08T18:44:15.310Z
+lineitem-15,invoice-8,3,Arbeitsstunde Helfer,15,50,750,,,4400,9,2025-11-08T18:44:15.310Z
+lineitem-16,invoice-8,4,Arbeitsstunde Meister,15,74.99,1124.85,,,4400,9,2025-11-08T18:44:15.310Z
+lineitem-17,invoice-8,5,Anfahrt,1,59.5,59.5,,,4200,9,2025-11-08T18:44:15.310Z
+lineitem-18,invoice-9,1,"B-3025, Farbe Grün Musterartikel",1,47,47,,,3400,9,2025-11-08T18:44:15.310Z
+lineitem-19,invoice-9,2,"B-3025, Farbe Rot Musterartikel",1,47,47,,,3400,9,2025-11-08T18:44:15.311Z
+lineitem-20,invoice-9,3,"B-0050, Farbe Blau Musterartikel ABC",2,36,72,,,3400,9,2025-11-08T18:44:15.312Z
+lineitem-21,invoice-9,4,"A-0050, Edelstahl Musterartikel",1,29,29,,,3400,9,2025-11-08T18:44:15.312Z
+lineitem-22,invoice-9,5,"A-0086, Antik Look Musterartikel",1,56,56,,,3400,9,2025-11-08T18:44:15.312Z
+lineitem-23,invoice-9,6,Versand und Verpackung,1,11.99,11.99,,,4200,9,2025-11-08T18:44:15.312Z
+lineitem-24,invoice-10,,,,,,,,,,2025-11-08T18:44:15.315Z
+lineitem-25,invoice-11,1,"Farbe weis - Eimer 2,5 Liter",10,72.49,724.9,,,4910,9,2025-11-08T18:44:15.315Z
+lineitem-26,invoice-11,2,"Farbe blau - Eimer 2,5 Liter",10,50,500,,,4910,9,2025-11-08T18:44:15.315Z
+lineitem-27,invoice-11,3,Arbeitsstunde Helfer,15,50,750,,,4400,9,2025-11-08T18:44:15.315Z
+lineitem-28,invoice-11,4,Arbeitsstunde Meister,15,74.99,1124.85,,,4400,9,2025-11-08T18:44:15.315Z
+lineitem-29,invoice-11,5,Anfahrt,1,59.5,59.5,,,4200,9,2025-11-08T18:44:15.315Z
+lineitem-30,invoice-12,1,"Services, Products & Goods | Domestic",1,750,750,,,4910,9,2025-11-08T18:44:15.315Z
+lineitem-31,invoice-12,2,"Services, Products & Goods | Export",1,1400,1400,,,3450,21,2025-11-08T18:44:15.315Z
+lineitem-32,invoice-12,3,Hotels & Books | Reduced,1,350,350,,,4920,2,2025-11-08T18:44:15.315Z
+lineitem-33,invoice-12,4,Education & Training,1,1290,1290,,,4425,2,2025-11-08T18:44:15.315Z
+lineitem-34,invoice-12,5,Medical Service,1,430,430,,,4425,2,2025-11-08T18:44:15.315Z
+lineitem-35,invoice-12,6,Domestic & International Transport,1,137.6,137.6,,,4200,,2025-11-08T18:44:15.315Z
+lineitem-36,invoice-13,1,1 SWIET @@ 560,0.15,560,84,,,3400,2,2025-11-08T18:44:15.315Z
+lineitem-37,invoice-14,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.315Z
+lineitem-38,invoice-14,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.315Z
+lineitem-39,invoice-14,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.315Z
+lineitem-40,invoice-14,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.315Z
+lineitem-41,invoice-14,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.315Z
+lineitem-42,invoice-14,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.315Z
+lineitem-43,invoice-14,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.315Z
+lineitem-44,invoice-14,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.315Z
+lineitem-45,invoice-14,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.315Z
+lineitem-46,invoice-14,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.315Z
+lineitem-47,invoice-14,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.315Z
+lineitem-48,invoice-14,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.315Z
+lineitem-49,invoice-14,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.315Z
+lineitem-50,invoice-14,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.315Z
+lineitem-51,invoice-14,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.315Z
+lineitem-52,invoice-14,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.315Z
+lineitem-53,invoice-14,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.315Z
+lineitem-54,invoice-15,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.316Z
+lineitem-55,invoice-15,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-56,invoice-15,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-57,invoice-15,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-58,invoice-15,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-59,invoice-15,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.316Z
+lineitem-60,invoice-15,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-61,invoice-15,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.316Z
+lineitem-62,invoice-15,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-63,invoice-15,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-64,invoice-15,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-65,invoice-15,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-66,invoice-15,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-67,invoice-15,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-68,invoice-15,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-69,invoice-15,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-70,invoice-15,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-71,invoice-16,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.316Z
+lineitem-72,invoice-16,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-73,invoice-16,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-74,invoice-16,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-75,invoice-16,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-76,invoice-16,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.316Z
+lineitem-77,invoice-16,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-78,invoice-16,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.316Z
+lineitem-79,invoice-16,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-80,invoice-16,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-81,invoice-16,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-82,invoice-16,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-83,invoice-16,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-84,invoice-16,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-85,invoice-16,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-86,invoice-16,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-87,invoice-16,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-88,invoice-17,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.316Z
+lineitem-89,invoice-17,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-90,invoice-17,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-91,invoice-17,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-92,invoice-17,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-93,invoice-17,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.316Z
+lineitem-94,invoice-17,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-95,invoice-17,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.316Z
+lineitem-96,invoice-17,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-97,invoice-17,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-98,invoice-17,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-99,invoice-17,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-100,invoice-17,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-101,invoice-17,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-102,invoice-17,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-103,invoice-17,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-104,invoice-17,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-105,invoice-18,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.316Z
+lineitem-106,invoice-18,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-107,invoice-18,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-108,invoice-18,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-109,invoice-18,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-110,invoice-18,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.316Z
+lineitem-111,invoice-18,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-112,invoice-18,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.316Z
+lineitem-113,invoice-18,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-114,invoice-18,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-115,invoice-18,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-116,invoice-18,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-117,invoice-18,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-118,invoice-18,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-119,invoice-18,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-120,invoice-18,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-121,invoice-18,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-122,invoice-19,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.316Z
+lineitem-123,invoice-19,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-124,invoice-19,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-125,invoice-19,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-126,invoice-19,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-127,invoice-19,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.316Z
+lineitem-128,invoice-19,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-129,invoice-19,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.316Z
+lineitem-130,invoice-19,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-131,invoice-19,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-132,invoice-19,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-133,invoice-19,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-134,invoice-19,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-135,invoice-19,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-136,invoice-19,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-137,invoice-19,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-138,invoice-19,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-139,invoice-20,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.316Z
+lineitem-140,invoice-20,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-141,invoice-20,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-142,invoice-20,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-143,invoice-20,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-144,invoice-20,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.316Z
+lineitem-145,invoice-20,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-146,invoice-20,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.316Z
+lineitem-147,invoice-20,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-148,invoice-20,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-149,invoice-20,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-150,invoice-20,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-151,invoice-20,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-152,invoice-20,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-153,invoice-20,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-154,invoice-20,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-155,invoice-20,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-156,invoice-21,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.316Z
+lineitem-157,invoice-21,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-158,invoice-21,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-159,invoice-21,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-160,invoice-21,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-161,invoice-21,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.316Z
+lineitem-162,invoice-21,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-163,invoice-21,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.316Z
+lineitem-164,invoice-21,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-165,invoice-21,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-166,invoice-21,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-167,invoice-21,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-168,invoice-21,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-169,invoice-21,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-170,invoice-21,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-171,invoice-21,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-172,invoice-21,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.316Z
+lineitem-173,invoice-22,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.317Z
+lineitem-174,invoice-22,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-175,invoice-22,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-176,invoice-22,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-177,invoice-22,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-178,invoice-22,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.317Z
+lineitem-179,invoice-22,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-180,invoice-22,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.317Z
+lineitem-181,invoice-22,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-182,invoice-22,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-183,invoice-22,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-184,invoice-22,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-185,invoice-22,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-186,invoice-22,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-187,invoice-22,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-188,invoice-22,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-189,invoice-22,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-190,invoice-23,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.317Z
+lineitem-191,invoice-23,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-192,invoice-23,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-193,invoice-23,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-194,invoice-23,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-195,invoice-23,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.317Z
+lineitem-196,invoice-23,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-197,invoice-23,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.317Z
+lineitem-198,invoice-23,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-199,invoice-23,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-200,invoice-23,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-201,invoice-23,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-202,invoice-23,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-203,invoice-23,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-204,invoice-23,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-205,invoice-23,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-206,invoice-23,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-207,invoice-24,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.317Z
+lineitem-208,invoice-24,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-209,invoice-24,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-210,invoice-24,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-211,invoice-24,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-212,invoice-24,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.317Z
+lineitem-213,invoice-24,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-214,invoice-24,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.317Z
+lineitem-215,invoice-24,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-216,invoice-24,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-217,invoice-24,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-218,invoice-24,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-219,invoice-24,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-220,invoice-24,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-221,invoice-24,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-222,invoice-24,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-223,invoice-24,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-224,invoice-25,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.317Z
+lineitem-225,invoice-25,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-226,invoice-25,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-227,invoice-25,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-228,invoice-25,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-229,invoice-25,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.317Z
+lineitem-230,invoice-25,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-231,invoice-25,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.317Z
+lineitem-232,invoice-25,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-233,invoice-25,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-234,invoice-25,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-235,invoice-25,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-236,invoice-25,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-237,invoice-25,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-238,invoice-25,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-239,invoice-25,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-240,invoice-25,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-241,invoice-26,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.317Z
+lineitem-242,invoice-26,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-243,invoice-26,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-244,invoice-26,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-245,invoice-26,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-246,invoice-26,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.317Z
+lineitem-247,invoice-26,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-248,invoice-26,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.317Z
+lineitem-249,invoice-26,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-250,invoice-26,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-251,invoice-26,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-252,invoice-26,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-253,invoice-26,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-254,invoice-26,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-255,invoice-26,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-256,invoice-26,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-257,invoice-26,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-258,invoice-27,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.317Z
+lineitem-259,invoice-27,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-260,invoice-27,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-261,invoice-27,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-262,invoice-27,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-263,invoice-27,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.317Z
+lineitem-264,invoice-27,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-265,invoice-27,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.317Z
+lineitem-266,invoice-27,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-267,invoice-27,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-268,invoice-27,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-269,invoice-27,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-270,invoice-27,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-271,invoice-27,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-272,invoice-27,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-273,invoice-27,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-274,invoice-27,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-275,invoice-28,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.317Z
+lineitem-276,invoice-28,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-277,invoice-28,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-278,invoice-28,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-279,invoice-28,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-280,invoice-28,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.317Z
+lineitem-281,invoice-28,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-282,invoice-28,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.317Z
+lineitem-283,invoice-28,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-284,invoice-28,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-285,invoice-28,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-286,invoice-28,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-287,invoice-28,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.317Z
+lineitem-288,invoice-28,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-289,invoice-28,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-290,invoice-28,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-291,invoice-28,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-292,invoice-29,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.318Z
+lineitem-293,invoice-29,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-294,invoice-29,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-295,invoice-29,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-296,invoice-29,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-297,invoice-29,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.318Z
+lineitem-298,invoice-29,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-299,invoice-29,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.318Z
+lineitem-300,invoice-29,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-301,invoice-29,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-302,invoice-29,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-303,invoice-29,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-304,invoice-29,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-305,invoice-29,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-306,invoice-29,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-307,invoice-29,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-308,invoice-29,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-309,invoice-30,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.318Z
+lineitem-310,invoice-30,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-311,invoice-30,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-312,invoice-30,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-313,invoice-30,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-314,invoice-30,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.318Z
+lineitem-315,invoice-30,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-316,invoice-30,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.318Z
+lineitem-317,invoice-30,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-318,invoice-30,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-319,invoice-30,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-320,invoice-30,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-321,invoice-30,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-322,invoice-30,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-323,invoice-30,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-324,invoice-30,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-325,invoice-30,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-326,invoice-31,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.318Z
+lineitem-327,invoice-31,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-328,invoice-31,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-329,invoice-31,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-330,invoice-31,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-331,invoice-31,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.318Z
+lineitem-332,invoice-31,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-333,invoice-31,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.318Z
+lineitem-334,invoice-31,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-335,invoice-31,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-336,invoice-31,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-337,invoice-31,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-338,invoice-31,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-339,invoice-31,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-340,invoice-31,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-341,invoice-31,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-342,invoice-31,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-343,invoice-32,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.318Z
+lineitem-344,invoice-32,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-345,invoice-32,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-346,invoice-32,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-347,invoice-32,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-348,invoice-32,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.318Z
+lineitem-349,invoice-32,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-350,invoice-32,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.318Z
+lineitem-351,invoice-32,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-352,invoice-32,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-353,invoice-32,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-354,invoice-32,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.318Z
+lineitem-355,invoice-32,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-356,invoice-32,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-357,invoice-32,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-358,invoice-32,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-359,invoice-32,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-360,invoice-33,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.319Z
+lineitem-361,invoice-33,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-362,invoice-33,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-363,invoice-33,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-364,invoice-33,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-365,invoice-33,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.319Z
+lineitem-366,invoice-33,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-367,invoice-33,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.319Z
+lineitem-368,invoice-33,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-369,invoice-33,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-370,invoice-33,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-371,invoice-33,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-372,invoice-33,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-373,invoice-33,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-374,invoice-33,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-375,invoice-33,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-376,invoice-33,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-377,invoice-34,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.319Z
+lineitem-378,invoice-34,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-379,invoice-34,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-380,invoice-34,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-381,invoice-34,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-382,invoice-34,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.319Z
+lineitem-383,invoice-34,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-384,invoice-34,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.319Z
+lineitem-385,invoice-34,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-386,invoice-34,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-387,invoice-34,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-388,invoice-34,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-389,invoice-34,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-390,invoice-34,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-391,invoice-34,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-392,invoice-34,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-393,invoice-34,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-394,invoice-35,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.319Z
+lineitem-395,invoice-35,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-396,invoice-35,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-397,invoice-35,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-398,invoice-35,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-399,invoice-35,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.319Z
+lineitem-400,invoice-35,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-401,invoice-35,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.319Z
+lineitem-402,invoice-35,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-403,invoice-35,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-404,invoice-35,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-405,invoice-35,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-406,invoice-35,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-407,invoice-35,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-408,invoice-35,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-409,invoice-35,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-410,invoice-35,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-411,invoice-36,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.319Z
+lineitem-412,invoice-36,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-413,invoice-36,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-414,invoice-36,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-415,invoice-36,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-416,invoice-36,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.319Z
+lineitem-417,invoice-36,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-418,invoice-36,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.319Z
+lineitem-419,invoice-36,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-420,invoice-36,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-421,invoice-36,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-422,invoice-36,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-423,invoice-36,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-424,invoice-36,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-425,invoice-36,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-426,invoice-36,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-427,invoice-36,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.319Z
+lineitem-428,invoice-37,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.320Z
+lineitem-429,invoice-37,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-430,invoice-37,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-431,invoice-37,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-432,invoice-37,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-433,invoice-37,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.320Z
+lineitem-434,invoice-37,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-435,invoice-37,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.320Z
+lineitem-436,invoice-37,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-437,invoice-37,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-438,invoice-37,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-439,invoice-37,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-440,invoice-37,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-441,invoice-37,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-442,invoice-37,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-443,invoice-37,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-444,invoice-37,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-445,invoice-38,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.320Z
+lineitem-446,invoice-38,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-447,invoice-38,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-448,invoice-38,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-449,invoice-38,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-450,invoice-38,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.320Z
+lineitem-451,invoice-38,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-452,invoice-38,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.320Z
+lineitem-453,invoice-38,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-454,invoice-38,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-455,invoice-38,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-456,invoice-38,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-457,invoice-38,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-458,invoice-38,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-459,invoice-38,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-460,invoice-38,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-461,invoice-38,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-462,invoice-39,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.320Z
+lineitem-463,invoice-39,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-464,invoice-39,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-465,invoice-39,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-466,invoice-39,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-467,invoice-39,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.320Z
+lineitem-468,invoice-39,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-469,invoice-39,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.320Z
+lineitem-470,invoice-39,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-471,invoice-39,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-472,invoice-39,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-473,invoice-39,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-474,invoice-39,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-475,invoice-39,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-476,invoice-39,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-477,invoice-39,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-478,invoice-39,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-479,invoice-40,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.320Z
+lineitem-480,invoice-40,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-481,invoice-40,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-482,invoice-40,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-483,invoice-40,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-484,invoice-40,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.320Z
+lineitem-485,invoice-40,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-486,invoice-40,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.320Z
+lineitem-487,invoice-40,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-488,invoice-40,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-489,invoice-40,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-490,invoice-40,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-491,invoice-40,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-492,invoice-40,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-493,invoice-40,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-494,invoice-40,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-495,invoice-40,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-496,invoice-41,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.320Z
+lineitem-497,invoice-41,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-498,invoice-41,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-499,invoice-41,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-500,invoice-41,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-501,invoice-41,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.320Z
+lineitem-502,invoice-41,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-503,invoice-41,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.320Z
+lineitem-504,invoice-41,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-505,invoice-41,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-506,invoice-41,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-507,invoice-41,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-508,invoice-41,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-509,invoice-41,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-510,invoice-41,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-511,invoice-41,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-512,invoice-41,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-513,invoice-42,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.320Z
+lineitem-514,invoice-42,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-515,invoice-42,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-516,invoice-42,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-517,invoice-42,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-518,invoice-42,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.320Z
+lineitem-519,invoice-42,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-520,invoice-42,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.320Z
+lineitem-521,invoice-42,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-522,invoice-42,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-523,invoice-42,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-524,invoice-42,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-525,invoice-42,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-526,invoice-42,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-527,invoice-42,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-528,invoice-42,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-529,invoice-42,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-530,invoice-43,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.320Z
+lineitem-531,invoice-43,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-532,invoice-43,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-533,invoice-43,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-534,invoice-43,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-535,invoice-43,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.320Z
+lineitem-536,invoice-43,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-537,invoice-43,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.320Z
+lineitem-538,invoice-43,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-539,invoice-43,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-540,invoice-43,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-541,invoice-43,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-542,invoice-43,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-543,invoice-43,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-544,invoice-43,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-545,invoice-43,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-546,invoice-43,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-547,invoice-44,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.320Z
+lineitem-548,invoice-44,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-549,invoice-44,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-550,invoice-44,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-551,invoice-44,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-552,invoice-44,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.320Z
+lineitem-553,invoice-44,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-554,invoice-44,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.320Z
+lineitem-555,invoice-44,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-556,invoice-44,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-557,invoice-44,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-558,invoice-44,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-559,invoice-44,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-560,invoice-44,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-561,invoice-44,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-562,invoice-44,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-563,invoice-44,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-564,invoice-45,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.320Z
+lineitem-565,invoice-45,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-566,invoice-45,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-567,invoice-45,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-568,invoice-45,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-569,invoice-45,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.320Z
+lineitem-570,invoice-45,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.320Z
+lineitem-571,invoice-45,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.320Z
+lineitem-572,invoice-45,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-573,invoice-45,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-574,invoice-45,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-575,invoice-45,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-576,invoice-45,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-577,invoice-45,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-578,invoice-45,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-579,invoice-45,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-580,invoice-45,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-581,invoice-46,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.321Z
+lineitem-582,invoice-46,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-583,invoice-46,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-584,invoice-46,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-585,invoice-46,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-586,invoice-46,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.321Z
+lineitem-587,invoice-46,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-588,invoice-46,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.321Z
+lineitem-589,invoice-46,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-590,invoice-46,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-591,invoice-46,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-592,invoice-46,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-593,invoice-46,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-594,invoice-46,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-595,invoice-46,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-596,invoice-46,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-597,invoice-46,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-598,invoice-47,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.321Z
+lineitem-599,invoice-47,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-600,invoice-47,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-601,invoice-47,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-602,invoice-47,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-603,invoice-47,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.321Z
+lineitem-604,invoice-47,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-605,invoice-47,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.321Z
+lineitem-606,invoice-47,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-607,invoice-47,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-608,invoice-47,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-609,invoice-47,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-610,invoice-47,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-611,invoice-47,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-612,invoice-47,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-613,invoice-47,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-614,invoice-47,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-615,invoice-48,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.321Z
+lineitem-616,invoice-48,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-617,invoice-48,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-618,invoice-48,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-619,invoice-48,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-620,invoice-48,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.321Z
+lineitem-621,invoice-48,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-622,invoice-48,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.321Z
+lineitem-623,invoice-48,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-624,invoice-48,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-625,invoice-48,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-626,invoice-48,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-627,invoice-48,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-628,invoice-48,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-629,invoice-48,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-630,invoice-48,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-631,invoice-48,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-632,invoice-49,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.321Z
+lineitem-633,invoice-49,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-634,invoice-49,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-635,invoice-49,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-636,invoice-49,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-637,invoice-49,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.321Z
+lineitem-638,invoice-49,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-639,invoice-49,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.321Z
+lineitem-640,invoice-49,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-641,invoice-49,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-642,invoice-49,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-643,invoice-49,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-644,invoice-49,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-645,invoice-49,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-646,invoice-49,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-647,invoice-49,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-648,invoice-49,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-649,invoice-50,1,Basic Fee wmView,1,130,130,,,,,2025-11-08T18:44:15.321Z
+lineitem-650,invoice-50,2,Basis fee for additional user accounts,0,10,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-651,invoice-50,3,Basic Fee wmPos,0,50,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-652,invoice-50,4,Basic Fee wmGuide,0,1000,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-653,invoice-50,5,Change of user accounts,0,10,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-654,invoice-50,6,Transaction Fee T1,14,0.58,8.12,,,,,2025-11-08T18:44:15.321Z
+lineitem-655,invoice-50,7,Transaction Fee T2,0,0.7,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-656,invoice-50,8,Transaction Fee T3,162,1.5,243,,,,,2025-11-08T18:44:15.321Z
+lineitem-657,invoice-50,9,Transaction Fee T4,0,0.5,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-658,invoice-50,10,Transaction Fee T5,0,0.8,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-659,invoice-50,11,Transaction Fee T6,0,1.8,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-660,invoice-50,12,Transaction Fee G1,0,0.3,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-661,invoice-50,13,Transaction Fee G2,0,0.3,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-662,invoice-50,14,Transaction Fee G3,0,0.4,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-663,invoice-50,15,Transaction Fee G4,0,0.4,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-664,invoice-50,16,Transaction Fee G5,0,0.3,0,,,,,2025-11-08T18:44:15.321Z
+lineitem-665,invoice-50,17,Transaction Fee G6,0,0.3,0,,,,,2025-11-08T18:44:15.321Z

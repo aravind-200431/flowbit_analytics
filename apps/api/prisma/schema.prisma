@@ -1,0 +1,130 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Document {
+  id             String    @id @default(uuid())
+  originalId     String    @unique
+  name           String
+  filePath       String?
+  fileSize       Int?
+  fileType       String?
+  status         String    @default("processed")
+  organizationId String?
+  departmentId   String?
+  uploadedById   String?
+  isValidated    Boolean   @default(false)
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  invoice Invoice?
+
+  @@index([status])
+  @@index([createdAt])
+}
+
+model Invoice {
+  id              String    @id @default(uuid())
+  documentId      String    @unique
+  invoiceId       String?
+  invoiceNumber   String?
+  invoiceDate     DateTime?
+  deliveryDate    DateTime?
+  totalAmount     Decimal?  @db.Decimal(15, 2)
+  subtotal        Decimal?  @db.Decimal(15, 2)
+  taxAmount       Decimal?  @db.Decimal(15, 2)
+  currency         String?   @default("EUR")
+  category        String?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  document        Document  @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  vendorId        String?
+  vendor          Vendor?   @relation(fields: [vendorId], references: [id])
+  customerId      String?
+  customer        Customer? @relation(fields: [customerId], references: [id])
+  payment         Payment?
+  lineItems       LineItem[]
+
+  @@index([invoiceDate])
+  @@index([vendorId])
+  @@index([category])
+  @@index([totalAmount])
+}
+
+model Vendor {
+  id                String    @id @default(uuid())
+  vendorName        String
+  vendorPartyNumber String?
+  vendorAddress     String?
+  vendorTaxId       String?
+  vendorEmail       String?
+  vendorPhone       String?
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+
+  invoices          Invoice[]
+
+  @@unique([vendorName, vendorPartyNumber])
+  @@index([vendorName])
+}
+
+model Customer {
+  id                String    @id @default(uuid())
+  customerName      String?
+  customerPartyNumber String?
+  customerAddress   String?
+  customerTaxId     String?
+  customerEmail     String?
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+
+  invoices          Invoice[]
+
+  @@index([customerName])
+  @@index([customerPartyNumber])
+}
+
+model Payment {
+  id              String    @id @default(uuid())
+  invoiceId       String    @unique
+  dueDate         DateTime?
+  paymentTerms    String?
+  paymentMethod   String?
+  paidDate        DateTime?
+  paidAmount      Decimal?  @db.Decimal(15, 2)
+  status          String?   @default("pending")
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  invoice         Invoice   @relation(fields: [invoiceId], references: [id], onDelete: Cascade)
+
+  @@index([dueDate])
+  @@index([status])
+}
+
+model LineItem {
+  id              String    @id @default(uuid())
+  invoiceId       String
+  description     String?
+  quantity        Decimal?  @db.Decimal(10, 2)
+  unitPrice       Decimal?  @db.Decimal(15, 2)
+  totalPrice      Decimal?  @db.Decimal(15, 2)
+  category        String?
+  taxRate         Decimal?  @db.Decimal(5, 2)
+  createdAt       DateTime  @default(now())
+
+  invoice         Invoice   @relation(fields: [invoiceId], references: [id], onDelete: Cascade)
+
+  @@index([invoiceId])
+  @@index([category])
+}
+
