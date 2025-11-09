@@ -1,12 +1,18 @@
 {
   "functions": {
     "api/index.ts": {
-      "runtime": "nodejs20.x",
+      "runtime": "@vercel/node@3.0.0",
       "includeFiles": "prisma/**"
     }
   },
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/index.ts" },
-    { "source": "/health", "destination": "/api/index.ts" }
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/index.ts"
+    },
+    {
+      "source": "/health",
+      "destination": "/api/index.ts"
+    }
   ]
 }
