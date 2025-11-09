@@ -1,9 +1,9 @@
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
-import { Input } from '@/components/ui/input';
-import { fetchInvoices } from '@/lib/api';
-import { formatCurrency, formatDate } from '@/lib/utils';
+import { Input } from './ui/input';
+import { fetchInvoices } from '../lib/api';
+import { formatCurrency, formatDate } from '../lib/utils';
 import { ArrowUpDown, ArrowUp, ArrowDown, Search } from 'lucide-react';
 
 interface Invoice {

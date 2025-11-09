@@ -1,8 +1,8 @@
 'use client';
 
-import { Sidebar } from '@/components/sidebar';
-import { Header } from '@/components/header';
-import { ChatWithData } from '@/components/chat-with-data';
+import { Sidebar } from '../../components/sidebar';
+import { Header } from '../../components/header';
+import { ChatWithData } from '../../components/chat-with-data';
 
 export default function ChatPage() {
   return (

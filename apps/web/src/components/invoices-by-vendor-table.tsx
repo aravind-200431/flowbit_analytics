@@ -1,9 +1,9 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { fetchInvoices } from '@/lib/api';
-import { formatCurrency } from '@/lib/utils';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
+import { fetchInvoices } from '../lib/api';
+import { formatCurrency } from '../lib/utils';
 
 interface VendorInvoiceData {
   vendor: string;

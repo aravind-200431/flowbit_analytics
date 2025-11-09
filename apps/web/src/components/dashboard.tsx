@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
 import {
   fetchStats,
   fetchInvoiceTrends,
@@ -9,8 +9,8 @@ import {
   fetchCategorySpend,
   fetchCashOutflow,
   fetchInvoices,
-} from '@/lib/api';
-import { formatCurrency } from '@/lib/utils';
+} from '../lib/api';
+import { formatCurrency } from '../lib/utils';
 import { InvoiceTrendChart } from './charts/invoice-trend-chart';
 import { VendorSpendChart } from './charts/vendor-spend-chart';
 import { CategorySpendChart } from './charts/category-spend-chart';
