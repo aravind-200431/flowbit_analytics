@@ -6,7 +6,7 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://your-api-project.vercel.app/api/$1"
+      "destination": "https://flowbit-api.vercel.app/api/$1"
     }
   ]
 }
