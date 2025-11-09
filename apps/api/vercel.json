@@ -1,15 +1,12 @@
 {
-  "builds": [
-    {
-      "src": "services/vanna/main.py",
-      "use": "@vercel/python",
-      "config": { "runtime": "python3.12" }
+  "functions": {
+    "api/index.js": {
+      "runtime": "nodejs20.x",
+      "includeFiles": "prisma/**"
     }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "services/vanna/main.py"
-    }
+  },
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/index.js" },
+    { "source": "/health", "destination": "/api/index.js" }
   ]
 }
