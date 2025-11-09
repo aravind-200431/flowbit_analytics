@@ -66,14 +66,18 @@ interface JsonDocument {
         };
       };
       lineItems?: {
-        value?: Array<{
-          description?: { value?: string };
-          quantity?: { value?: number | string };
-          unitPrice?: { value?: number | string };
-          totalPrice?: { value?: number | string };
-          category?: { value?: string };
-          taxRate?: { value?: number | string };
-        }>;
+        value?: {
+          items?: {
+            value?: Array<{
+              description?: { value?: string };
+              quantity?: { value?: number | string };
+              unitPrice?: { value?: number | string };
+              totalPrice?: { value?: number | string };
+              category?: { value?: string };
+              taxRate?: { value?: number | string };
+            }>;
+          };
+        };
       };
     };
   };
@@ -235,9 +239,10 @@ async function main() {
       }
 
       // Create line items
-      const lineItems = llmData.lineItems?.value;
-      if (lineItems && Array.isArray(lineItems)) {
-        for (const item of lineItems) {
+      // The structure is: lineItems.value.items.value (array of items)
+      const lineItemsData = llmData.lineItems?.value?.items?.value;
+      if (lineItemsData && Array.isArray(lineItemsData)) {
+        for (const item of lineItemsData) {
           await prisma.lineItem.create({
             data: {
               invoiceId: invoice.id,
